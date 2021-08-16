@@ -17,3 +17,24 @@ Here are some ideas to get you started:
 
 헤에 저에대해 필요한게 있으면 연락해주세요 ><
 아직 페이지 작성중 입니다.
+
+[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=Jo-Seungjun&show_icons=true&theme=dark)](https://github.com/anuraghazra/github-readme-stats)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Jo-Seungjun&theme=dark&exclude_repo=Jo-Seungjun.github.io,UfXpri&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
+
+
+안녕하세요! 백엔드개발자 UfXpri 입니다.
+항상 멋져보이고 싶다. 라는 느낌으로 개발을 하고 있답니다!
+
+UfXpri란?
+- 백엔드를 좋아합니다.
+- 딥러닝 업체에 근무하고 있습니다.
+---
+기술 스택
+- python
+- C++
+- html, css, javascript
+---
+
+블로그
+
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=Jo-Seungjun&repo=Jo-Seungjun.github.io&theme=dark)](https://github.com/anuraghazra/github-readme-stats)
