@@ -34,6 +34,10 @@ UfXpri란?
 - C++
 - html, css, javascript
 ---
+관심 기술
+- 실시간 프로세싱
+- 라이브 스트리밍
+- 
 
 블로그
 
