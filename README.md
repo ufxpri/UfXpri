@@ -18,8 +18,8 @@ Here are some ideas to get you started:
 헤에 저에대해 필요한게 있으면 연락해주세요 ><
 아직 페이지 작성중 입니다.
 
-[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=Jo-Seungjun&show_icons=true&theme=dark)](https://github.com/anuraghazra/github-readme-stats)
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Jo-Seungjun&theme=dark&exclude_repo=Jo-Seungjun.github.io,UfXpri&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
+[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=ufxpri&show_icons=true&theme=dark)](https://github.com/anuraghazra/github-readme-stats)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=ufxpri&theme=dark&exclude_repo=Jo-Seungjun.github.io,UfXpri&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
 
 
 안녕하세요! 백엔드개발자 UfXpri 입니다.
