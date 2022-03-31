@@ -41,4 +41,4 @@ UfXpri란?
 
 블로그
 
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=Jo-Seungjun&repo=Jo-Seungjun.github.io&theme=dark)](https://github.com/anuraghazra/github-readme-stats)
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=ufxpri&repo=Jo-Seungjun.github.io&theme=dark)](https://github.com/anuraghazra/github-readme-stats)
