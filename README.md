@@ -13,36 +13,20 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 
-# UfXpri
+# 조승준 UfXpri
+👥 Backend Developer
 
-헤에 저에대해 필요한게 있으면 연락해주세요 ><
-아직 페이지 작성중 입니다.
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi)
+![Swagger](https://img.shields.io/badge/-Swagger-%23Clojure?style=for-the-badge&logo=swagger&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white)
+![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
+![RabbitMQ](https://img.shields.io/badge/Rabbitmq-FF6600?style=for-the-badge&logo=rabbitmq&logoColor=white)
 
-[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=ufxpri&show_icons=true&theme=dark)](https://github.com/anuraghazra/github-readme-stats)
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=ufxpri&theme=dark&exclude_repo=Jo-Seungjun.github.io,UfXpri&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
+more info **[COVER LETTER](https://github.com/ufxpri/UfXpri/blob/main/COVER_LETTER)** | **[RESUME](https://github.com/ufxpri/UfXpri/blob/main/RESUME.md)**
 
+**지와이네트웍스** @GYnetworks <sub><sup>백엔드 개발 (2019.09 ~ now)</sup></sub>  
 
-안녕하세요! 백엔드개발자 UfXpri 입니다.
-항상 멋져보이고 싶다. 라는 느낌으로 개발을 하고 있답니다!
-
-UfXpri란?
-- 백엔드를 좋아하고 백엔드 개발자입니다.
-- 딥러닝 업체에서 백엔드로 근무하고 있습니다.
 ---
-기술 스택
-- python
-- C++
-- html, css, javascript
----
-관심 기술
-- 실시간 프로세싱
-- 라이브 스트리밍
-- docker
----
-관심 아키텍쳐
-- 메세지 큐 시스템
-- RPC 모듈
 
-블로그
-
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=ufxpri&repo=Jo-Seungjun.github.io&theme=dark)](https://github.com/anuraghazra/github-readme-stats)
+![github stats](https://github-readme-stats.vercel.app/api?username=ufxpri&theme=dark)
