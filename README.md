@@ -25,7 +25,7 @@ Here are some ideas to get you started:
 
 more info **[COVER LETTER](https://github.com/ufxpri/UfXpri/blob/main/COVER_LETTER)** | **[RESUME](https://github.com/ufxpri/UfXpri/blob/main/RESUME.md)**
 
-**지와이네트웍스** @GYnetworks <sub><sup>백엔드 개발 (2019.09 ~ now)</sup></sub>  
+**지와이네트웍스** @GYnetworks <sub><sup>백엔드 개발 (2018.09 ~ now)</sup></sub>  
 
 ---
 
