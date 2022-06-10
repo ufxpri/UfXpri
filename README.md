@@ -23,7 +23,7 @@ Here are some ideas to get you started:
 ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
 ![RabbitMQ](https://img.shields.io/badge/Rabbitmq-FF6600?style=for-the-badge&logo=rabbitmq&logoColor=white)
 
-more info **[COVER LETTER](https://github.com/ufxpri/UfXpri/blob/main/COVER_LETTER)** | **[RESUME](https://github.com/ufxpri/UfXpri/blob/main/RESUME.md)**
+more info **[COVER LETTER](https://github.com/ufxpri/UfXpri/blob/main/COVER_LETTER.md)** | **[RESUME](https://github.com/ufxpri/UfXpri/blob/main/RESUME.md)**
 
 **지와이네트웍스** @GYnetworks <sub><sup>백엔드 개발 (2018.09 ~ now)</sup></sub>  
 
