@@ -15,22 +15,15 @@
 - 정보처리기능사 - 2017.03.29
 
 # 기술 스택
-[] 기술 스택 줄여서 작성할것
 - python - (주 언어)
-  - FastAPI 빌드
-  - multi-threading, multi-processing 비동기 프로그래밍
-  - OpenCV 이미지 프로세싱
+  - FastAPI
+  - multi-threading, multi-processing
+  - OpenCV
 - docker
-  - docker-compose 배포
-  - volume, network 관리
 - gRPC
 - rabbitmq
-  - 메시지 생성 밎 소모
 - fluentd
 - influxDB
-- ffmpeg
-  - rtsp 스트리밍
-  - 트랜스코딩
 
 # 관심 기술
 - live streaming
@@ -38,7 +31,6 @@
 - orchestration
 - CI/CD
 - Monitoring
-  - prometheous
 
 # 활동 내역
 ## (이모티콘) (주) 지와이 네트웍스 (2018.09.28 ~ 현재)
@@ -66,7 +58,6 @@
 
 <!-- 
 #### 스타트업파크 AI 화제 감지 시스템 (2021.08 ~ 2021.12)
-가장 심플했던 케이스 이다. 이 업무를 진행하기 위해 필요했던건 오직 API 기능 요구서 한장 뿐이였다. 나는 여기서 정형화된 배포 프로세스를 만들 수 있었고 그렇게 사무실을 얻을 수 있었다.
 - 프로젝트 및 현장 시연 리드
 - 시연용 네트워크 구축
  -->
