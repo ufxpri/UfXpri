@@ -27,6 +27,9 @@ more info **[COVER LETTER](https://github.com/ufxpri/UfXpri/blob/main/COVER_LETT
 
 **지와이네트웍스** @GYnetworks <sub><sup>백엔드 개발 (2018.09 ~ now)</sup></sub>  
 
+
+**GDG송도** <sub><sup>스테프 (2022.08.14)</sup></sub>  
+
 ---
 
 ![github stats](https://github-readme-stats.vercel.app/api?username=ufxpri&theme=dark)
