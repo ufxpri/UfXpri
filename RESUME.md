@@ -13,7 +13,8 @@
 - 전자캐드기능사 - 2017.06.23
 - 정보기기운용기능사 - 2018.03.21
 - 정보처리기능사 - 2017.03.29
-
+- AWS Cloud Practitioner - 2022.10.14 [.](https://www.credly.com/badges/43d4968c-9fd0-46d6-ab7a-b2130f7d359a)
+- 
 # 기술 스택
 - python - (주 언어)
   - FastAPI
