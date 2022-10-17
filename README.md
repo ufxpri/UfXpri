@@ -32,4 +32,6 @@ more info **[COVER LETTER](https://github.com/ufxpri/UfXpri/blob/main/COVER_LETT
 
 ---
 
+**AWS Cloud Practitioner** <sub><sup>(2022.10.14)</sup></sub> [badge](https://www.credly.com/badges/43d4968c-9fd0-46d6-ab7a-b2130f7d359a/public_url)
+
 ![github stats](https://github-readme-stats.vercel.app/api?username=ufxpri&theme=dark)
