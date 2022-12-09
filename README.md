@@ -33,5 +33,6 @@ more info **[COVER LETTER](https://github.com/ufxpri/UfXpri/blob/main/COVER_LETT
 ---
 
 **AWS Cloud Practitioner** <sub><sup>(2022.10.14)</sup></sub> [badge](https://www.credly.com/badges/43d4968c-9fd0-46d6-ab7a-b2130f7d359a/public_url)
+**리눅스마스터 1급** <sub><sup>(2022.12.09)</sup></sub>
 
 ![github stats](https://github-readme-stats.vercel.app/api?username=ufxpri&theme=dark)
