@@ -25,10 +25,11 @@ Here are some ideas to get you started:
 
 more info **[COVER LETTER](https://github.com/ufxpri/UfXpri/blob/main/COVER_LETTER.md)** | **[RESUME](https://github.com/ufxpri/UfXpri/blob/main/RESUME.md)**
 
-**지와이네트웍스** @GYnetworks <sub><sup>백엔드 개발 (2018.09 ~ now)</sup></sub>  
+**지와이네트웍스** @GYnetworks <sub><sup>백엔드 연구원 (2018.09 ~ 2022.12.31)</sup></sub> 
+**오지큐** @OGQ <sub><sup>백엔드 개발자 (2022.01.01 ~ now)</sup></sub>  
 
 **GDG송도** <sub><sup>스테프 (2022.08.14)</sup></sub>  
-**DDD** <sub><sup>8기 운영진 (2022.09.01 ~ )</sup></sub>
+**DDD** <sub><sup>8기 운영진 (2022.09.01 ~ now)</sup></sub>
 
 ---
 
