@@ -29,11 +29,12 @@ more info **[COVER LETTER](https://github.com/ufxpri/UfXpri/blob/main/COVER_LETT
 **오지큐** @OGQ <sub><sup>백엔드 개발자 (2022.01.01 ~ now)</sup></sub>  
 
 **GDG송도** <sub><sup>스테프 (2022.08.14)</sup></sub>  
-**DDD** <sub><sup>8기 운영진 (2022.09.01 ~ now)</sup></sub>
+**DDD** <sub><sup>8기 운영진 (2022.09.01 ~ now)</sup></sub>  
 
 ---
 
-**AWS Cloud Practitioner** <sub><sup>(2022.10.14)</sup></sub> [badge](https://www.credly.com/badges/43d4968c-9fd0-46d6-ab7a-b2130f7d359a/public_url)  
-**리눅스마스터 1급** <sub><sup>(2022.12.09)</sup></sub> LMF-2202-002034
+**AWS Certified Cloud Practitioner** <sub><sup>(2022.10.14)</sup></sub> [badge](https://www.credly.com/badges/43d4968c-9fd0-46d6-ab7a-b2130f7d359a/public_url)  
+**AWS Certified Solutions Architect – Associate** <sub><sup>(2023.10.06)</sup></sub> [badge](https://www.credly.com/badges/d45a1d57-65e9-44c6-96c3-33d1017f8dcf/public_url)  
+**리눅스마스터 1급** <sub><sup>(2022.12.09)</sup></sub> LMF-2202-002034  
 
 ![github stats](https://github-readme-stats.vercel.app/api?username=ufxpri&theme=dark)
