@@ -29,7 +29,7 @@ more info **[COVER LETTER](https://github.com/ufxpri/UfXpri/blob/main/COVER_LETT
 **오지큐** @OGQ <sub><sup>백엔드 개발자 (2022.01.01 ~ now)</sup></sub>  
 
 **GDG송도** <sub><sup>스테프 (2022.08.14)</sup></sub>  
-**DDD** <sub><sup>8기 운영진 (2022.09.01 ~ now)</sup></sub>  
+**DDD** <sub><sup>8기 운영진 (2022.09.01 ~ 2024.09.28)</sup></sub>  
 
 ---
 
