@@ -10,7 +10,7 @@
 ![RabbitMQ](https://img.shields.io/badge/RabbitMQ-FF6600?style=flat-square&logo=rabbitmq&logoColor=white)
 
 ### 📄 More Info
-[COVER LETTER](#) | [RESUME](#)
+[COVER LETTER](./COVER_LETTER.md) | [RESUME](./RESUME.md)
 
 ---
 
