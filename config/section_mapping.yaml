@@ -1,0 +1,28 @@
+# Section Mapping and Update Rules
+
+# Incremental update sections
+incremental_sections:
+  - Professional Experience
+  - Major Projects
+
+# Static/manual update sections
+static_sections:
+  - Tech Stack
+  - Certifications
+  - Publications
+  - Community
+  - Learning
+
+# Section order
+section_order:
+  - Header
+  - Tech Stack
+  - Professional Experience
+  - Major Projects
+  - Achievements & Awards
+  - Skills
+  - KPIs & Impact Metrics
+  - Certifications & Education
+  - Publications & Presentations
+  - Community & Leadership
+  - Learning & Development
