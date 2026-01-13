@@ -15,13 +15,13 @@ Generate `RESUME.md` by synthesizing:
 - `what_i_did_*.md` files (all years)
 - `my_thoughts_*.md` files (all years)
 - `performance_*.md` files (all years)
-- `Profile.md` (if exists)
+- `basic_info.md` (static info: name, contact, education, military, certs)
 
 ## Instructions
 
 ### Step 1: Discover and Read All Components
 - Use Glob to find all `what_i_did_*.md`, `my_thoughts_*.md`, `performance_*.md` files
-- Read `Profile.md` for personal info, education, certifications
+- Read `basic_info.md` for static info (name, contact, education, military, certs, career)
 - Sort by year (most recent first)
 
 ### Step 2: Analyze Content with LLM Intelligence
@@ -34,7 +34,7 @@ For each year's data:
 ### Step 3: Synthesize Resume Structure
 
 #### Header
-- Name, title, contact info (from Profile.md)
+- Name, title, contact info (from basic_info.md)
 - One-line value proposition (synthesized from overall career arc)
 
 #### Professional Summary (3-4 sentences)
@@ -90,7 +90,7 @@ If there are standout projects that deserve spotlight:
 - Use when projects are more notable than chronological experience
 
 #### Education & Certifications
-From Profile.md - keep concise.
+From basic_info.md - keep concise.
 
 ### Step 4: Apply Professional Polish
 

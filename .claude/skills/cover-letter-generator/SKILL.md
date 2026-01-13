@@ -15,7 +15,7 @@ Generate `COVER_LETTER.md` by synthesizing:
 - `my_thoughts_*.md` files (learnings, reflections, growth)
 - `what_i_did_*.md` files (accomplishments context)
 - `performance_*.md` files (impact validation)
-- `Profile.md` (personal info)
+- `basic_info.md` (personal background)
 
 ## Instructions
 
@@ -25,7 +25,7 @@ Read all available files:
 - All `my_thoughts_*.md` files (all years) - This is your primary source
 - All `what_i_did_*.md` files (context for achievements)
 - All `performance_*.md` files (metrics to back up claims)
-- `Profile.md` (personal background)
+- `basic_info.md` (personal background, education, career)
 
 ### Step 2: Understand the Narrative Arc
 

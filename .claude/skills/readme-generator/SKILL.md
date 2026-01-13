@@ -8,12 +8,13 @@ context: fork
 # README Generator Skill
 
 ## Purpose
-Create a **stunning GitHub profile README.md** that automatically pulls content from your structured career data, keeping your public profile always up-to-date.
+Create a **professional GitHub profile README.md** optimized for the **Korean job market**, focusing on concrete projects and essential hiring information.
 
 ## Task
 Generate `README.md` (GitHub profile page) by synthesizing:
-- `RESUME.md` or structured career files
-- `Profile.md` (personal info)
+- `RESUME.md` - For extracting top projects
+- `basic_info.md` - Static info (name, contact, education, military, certs)
+- `what_i_did_*.md` - For extracting specific project names
 - Current GitHub profile style (if existing README.md present)
 
 ## Instructions
@@ -21,10 +22,10 @@ Generate `README.md` (GitHub profile page) by synthesizing:
 ### Step 1: Read Source Data
 
 Read the following files (if they exist):
-- `RESUME.md` - Synthesized resume
-- `Profile.md` - Personal information
+- `basic_info.md` - **PRIMARY SOURCE** for static info (name, contact, education, military, certs, career)
+- `RESUME.md` - For extracting top projects and achievements
+- `what_i_did_*.md` - For specific project names and details
 - Existing `README.md` - To preserve user's preferred style/badges
-- `what_i_did_*.md`, `my_thoughts_*.md`, `performance_*.md` - If RESUME.md doesn't exist
 
 ### Step 2: Extract Key Information
 
@@ -37,36 +38,53 @@ From the source files, identify:
 - **Community involvement** (meetups, conferences, open source)
 - **Contact/links** (email, LinkedIn, blog, etc.)
 
-### Step 3: Design README Structure
+### Step 3: Design README Structure (Korean Job Market)
 
-A great GitHub profile README should have:
+**CRITICAL**: For Korean job market, README should be:
+- **한글로 작성** (Write entirely in Korean)
+- **구체적인 프로젝트 중심** (Focus on concrete project names, not vague metrics)
+- **채용 필수 정보 포함** (Include education and military service - mandatory for Korean hiring)
 
-#### Header Section
-- Name and title
-- Tech stack badges (shields.io)
-- Quick navigation links
+#### Required Structure:
 
-#### About Me
-- 2-3 sentence professional summary
-- Current role and company
-- Links to detailed resume/cover letter
+**1. Header**
+- 이름 (Name in Korean)
+- 직함 (Title in Korean)
+- 한 줄 소개 (One-line intro in Korean)
 
-#### Key Highlights
-- Top achievements with metrics
-- Recent projects
-- Areas of expertise
+**2. 기술 스택 (Tech Stack)**
+- Core technologies only (8-10 badges max)
+- Ordered by importance
 
-#### Experience Timeline
-- Current and past roles (brief)
-- Community involvement
+**3. 경력 (Career)**
+- Current company + role + dates
+- Previous company + role + dates
+- Keep it brief (2-3 lines total)
 
-#### Certifications & Credentials
+**4. 주요 프로젝트 (Key Projects)** ⭐ MOST IMPORTANT
+- **Use specific project NAMES**, not vague achievements
+- Good: "K-water 소양강댐 AI 관제 시스템 - CLIP 모델 최적화, 36대 CCTV 실시간 모니터링"
+- Bad: "CPU usage reduced by 50%" (doesn't say WHAT you built)
+- Include 3-4 top projects with:
+  - Project name (client + system name)
+  - What you built
+  - Key technologies or achievements
+
+**5. 학력 및 병역 (Education & Military)** ⭐ REQUIRED FOR KOREA
+- 대학교 (University) - major, status (재학/졸업)
+- 고등학교 (High school) - major, graduation
+- 병역 (Military) - status (산업기능요원 만기 전역, etc.)
+
+**6. 자격증 (Certifications)**
 - AWS certs, Linux Master, etc.
-- With badge links if available
+- Include dates
 
-#### GitHub Stats
+**7. 연락처 (Contact)**
+- Links to resume, cover letter
+- Email, GitHub
+
+**8. GitHub Stats** (optional)
 - GitHub stats widget
-- Most used languages (optional)
 
 ### Step 4: Generate Content with LLM Intelligence
 
@@ -91,69 +109,101 @@ Update content, don't replace style.
 
 Write to `README.md` in the base directory.
 
-## Example Output Structure
+## Example Output Structure (Korean Market Standard)
 
 ```markdown
-# 조승준 UfXpri
-👥 Backend Developer | AI/ML Infrastructure
+# 조승준 (UfXpri)
 
-![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
-![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi)
-![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white)
-![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
-
-Senior Backend Engineer with 6+ years building scalable AI/ML systems. Currently at **OGQ** leading infrastructure development. Previously at **GYnetworks** where I architected real-time streaming systems processing 10K+ concurrent streams.
-
-📄 **[RESUME](./RESUME.md)** | **[COVER LETTER](./COVER_LETTER.md)** | **[Career Data](./2024/)**
-
-## 🚀 Key Highlights
-
-- 🏗️ Architected real-time CCTV streaming system handling **10,000+ concurrent streams** with 99.9% uptime
-- ⚡ Led backend migration reducing query latency by **40%** and improving scalability
-- ☁️ Designed cloud infrastructure serving **100K+ users** with multi-region failover
-- 🎓 Mentored **10+ engineers** on distributed systems and cloud architecture
-- 📊 Reduced infrastructure costs by **25%** through automated optimization
-
-## 💼 Experience
-
-**OGQ** <sub><sup>백엔드 개발자 (2023.01 ~ now)</sup></sub>
-**GYnetworks** <sub><sup>백엔드 연구원 (2018.09 ~ 2022.12)</sup></sub>
-
-**GDG송도** <sub><sup>스태프 (2022.08)</sup></sub>
-**DDD** <sub><sup>8기 운영진 (2022.09 ~ 2024.09)</sup></sub>
-
-## 🏆 Certifications
-
-**AWS Certified Solutions Architect – Associate** <sub><sup>(2023.10)</sup></sub> [badge](https://www.credly.com/badges/d45a1d57-65e9-44c6-96c3-33d1017f8dcf)
-**AWS Certified Cloud Practitioner** <sub><sup>(2022.10)</sup></sub> [badge](https://www.credly.com/badges/43d4968c-9fd0-46d6-ab7a-b2130f7d359a)
-**리눅스마스터 1급** <sub><sup>(2022.12)</sup></sub> LMF-2202-002034
-
-## 📊 GitHub Stats
-
-![github stats](https://github-readme-stats.vercel.app/api?username=ufxpri&theme=dark&show_icons=true)
+**백엔드 개발자** | AI/ML 인프라 및 실시간 스트리밍 시스템 구축
 
 ---
 
-<sub>🤖 This README is auto-generated from my [career data](./) using Claude Code skills. Last updated: 2026-01-11</sub>
+## 🛠️ 기술 스택
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Django](https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Kafka](https://img.shields.io/badge/Kafka-231F20?style=flat-square&logo=apache-kafka&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazon-aws&logoColor=white)
+
+---
+
+## 💼 경력
+
+**오지큐 (OGQ)** - 백엔드 개발자 (2023.01 ~ 현재)
+**지와이네트웍스 (GYnetworks)** - 백엔드 연구원 (2018.09 ~ 2022.12)
+
+---
+
+## 🚀 주요 프로젝트
+
+**K-water 소양강댐 AI 관제 시스템** (2024)
+- CLIP 모델 최적화로 CPU 사용량 51.5% 절감 (330% → 160%)
+- 36대 CCTV 실시간 모니터링 시스템 구축
+
+**네이버 MyBox Kafka 비동기 아키텍처** (2025)
+- Kafka 기반 대용량 이미지 처리 파이프라인 설계
+- GPU 비용 효율화 및 Capacity Planning
+
+**DNA+ 드론 5G 실시간 전송 시스템** (2023)
+- C++ 레거시 코드 통합 및 KLV 데이터 실시간 스트리밍
+- 드론 영상 5G 전송 프로토콜 구현
+
+**경찰청 Police Lab 2.0 백엔드** (2024)
+- Docker 이미지 60% 경량화 (35GB → 12GB)
+- Ansible 기반 폐쇄망 배포 자동화
+
+---
+
+## 🎓 학력 및 병역
+
+**인하대학교** 소프트웨어융합공학과 재학 (2025.03 ~)
+**인천전자마이스터고** 정보통신기기과 졸업 (2019.01)
+**병역** 산업기능요원 만기 전역 (2021.02 ~ 2023.12)
+
+---
+
+## 🏅 자격증
+
+**AWS Certified Solutions Architect – Associate** (2023.10)
+**AWS Certified Cloud Practitioner** (2022.10)
+**리눅스마스터 1급** (2022.12)
+
+---
+
+## 📫 연락처
+
+📄 [이력서](./RESUME.md) • 💌 [커버레터](./COVER_LETTER.md)
+📧 cfi02222@gmail.com • 🐙 [github.com/ufxpri](https://github.com/ufxpri)
+
+---
+
+## 📊 GitHub Stats
+![UfXpri's GitHub stats](https://github-readme-stats.vercel.app/api?username=UfXpri&show_icons=true&theme=radical)
 ```
 
-## Content Guidelines
+## Content Guidelines (Korean Job Market)
 
 ### DO:
-- **Lead with impact**: Start with most impressive achievements
-- **Use metrics**: Numbers, percentages, scale
-- **Be specific**: "10K+ concurrent streams" not "many streams"
-- **Show growth**: Progression from 2019 to 2024
-- **Link to details**: Point to full resume, projects, year directories
-- **Keep it scannable**: Use headers, bullets, emojis, badges
-- **Update regularly**: Add note about when/how it's generated
+- ✅ **한글로 작성** - Write everything in Korean (except tech terms)
+- ✅ **구체적인 프로젝트명 사용** - Use specific project names (client + system)
+  - Good: "K-water 소양강댐 AI 관제 시스템"
+  - Bad: "AI monitoring system" or "CPU optimization"
+- ✅ **학력/병역 필수 포함** - Always include education and military service
+- ✅ **간결하게** - Keep it scannable (3-4 top projects, not 10)
+- ✅ **핵심만** - Details go to RESUME.md, only highlights in README
+- ✅ **기술 스택 정확히** - Only list technologies actually used (8-10 badges max)
 
 ### DON'T:
-- Don't include everything (save details for RESUME.md)
-- Don't be generic ("hard worker", "team player")
-- Don't use walls of text
-- Don't forget to link to detailed content
-- Don't make it too long (aim for 1-2 screens)
+- ❌ **영어로 작성하지 말것** - Don't write in English (this is for Korean hiring managers)
+- ❌ **추상적인 성과** - Don't use vague achievements without project context
+  - Bad: "Reduced CPU by 50%" (뭘 했는지 모름)
+  - Good: "K-water 시스템에서 CLIP 모델 최적화로 CPU 51.5% 절감"
+- ❌ **학력/병역 빠뜨리지 말것** - Never omit education/military (Korean recruiters always check)
+- ❌ **너무 길게** - Don't make it too long (aim for 1 screen, 2 max)
+- ❌ **모든 프로젝트 나열** - Don't list every project (only top 3-4)
 
 ## Customization Options
 

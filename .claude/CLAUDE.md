@@ -26,7 +26,7 @@ This is a **career management and resume generation system** that uses Claude Co
 - All `what_i_did_*.md` files (all years)
 - All `my_thoughts_*.md` files (all years)
 - All `performance_*.md` files (all years)
-- `Profile.md` (personal info, education)
+- `basic_info.md` (static info: name, contact, education, military, certs)
 
 **Output**:
 - `RESUME.md` - Professional resume with:
@@ -64,10 +64,14 @@ G:\내 드라이브\03_회사\00_커리어/
 │       │   └── SKILL.md                             [extraction logic]
 │       ├── resume-synthesizer/
 │       │   └── SKILL.md                             [synthesis logic]
-│       └── resume-translator/
-│           └── SKILL.md                             [translation logic]
+│       ├── resume-translator/
+│       │   └── SKILL.md                             [translation logic]
+│       ├── readme-generator/
+│       │   └── SKILL.md                             [GitHub profile generation]
+│       └── cover-letter-generator/
+│           └── SKILL.md                             [cover letter generation]
 │
-├── Profile.md                                       [personal info, education]
+├── basic_info.md                                    [static info: name, contact, edu, military, certs]
 │
 ├── 2024/
 │   ├── 1분기.md, 2분기.md, 3분기.md, 4분기.md        [raw quarterly data]
@@ -85,14 +89,15 @@ G:\내 드라이브\03_회사\00_커리어/
 ├── RESUME_technical.md                              [adapted for IC roles]
 │
 └── archive/
-    └── generate_resume.py                           [legacy Python script]
+    ├── generate_resume.py                           [legacy Python script]
+    └── Profile.md.old                               [old profile file]
 ```
 
 ## Usage Workflow
 
 ### Initial Setup (One-time)
 1. Organize yearly career data into directories (2020/, 2021/, etc.)
-2. Create/update `Profile.md` with personal info
+2. Create/update `basic_info.md` with static info (name, contact, education, military, certs)
 
 ### Regular Usage
 
@@ -214,7 +219,7 @@ Claude: [Invokes resume-translator skill automatically]
 - Separate different types of content (don't mix retrospectives with project docs)
 
 ### For Synthesis
-- Ensure Profile.md is up-to-date
+- Ensure basic_info.md is up-to-date (especially when you get new certs or change jobs)
 - Be specific when requesting resume: "Focus on leadership" vs "Focus on technical depth"
 - Iterate: Generate → Review → Refine → Regenerate
 
