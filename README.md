@@ -1,7 +1,10 @@
-# 조승준 UfXpri
-👥 **Backend Developer**
+# 조승준 (UfXpri)
 
-### 🛠 Tech Stack
+**백엔드 개발자** | AI/ML 인프라 및 실시간 스트리밍 시스템 구축
+
+---
+
+## 🛠️ 기술 스택
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![Django](https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
@@ -9,65 +12,59 @@
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 ![Kafka](https://img.shields.io/badge/Kafka-231F20?style=flat-square&logo=apache-kafka&logoColor=white)
-![RabbitMQ](https://img.shields.io/badge/RabbitMQ-FF6600?style=flat-square&logo=rabbitmq&logoColor=white)
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazon-aws&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
-![Ansible](https://img.shields.io/badge/Ansible-EE0000?style=flat-square&logo=ansible&logoColor=white)
-
-### 📄 More Info
-[COVER LETTER](./COVER_LETTER.md) | [RESUME](./RESUME.md)
 
 ---
 
-## 👨‍💻 Who I Am
+## 💼 경력
 
-6년차 백엔드 개발자로, AI/ML 인프라부터 대규모 실시간 스트리밍 시스템까지 구축합니다. 주어진 환경에서 반드시 해결책을 찾아내는 실행력과, "멀리 가는 시스템"을 설계하는 장기적 관점을 가지고 있습니다.
-
-**Philosophy**: Going Fast → Going Far | AI 협업 전문가 (Whitebox AI) | 아키텍처 중심 설계
-
----
-
-## 💼 Work Experience
-- **오지큐 @OGQ**
-  - 백엔드 개발자 (2023.01.01 ~ now)
-- **지와이네트웍스 @GYnetworks**
-  - 백엔드 연구원 (2018.09.28 ~ 2022.12.31)
+**오지큐 (OGQ)** - 백엔드 개발자 (2023.01 ~ 현재)
+**지와이네트웍스 (GYnetworks)** - 백엔드 연구원 (2018.09 ~ 2022.12)
 
 ---
 
-## 🚀 Key Achievements
+## 🚀 주요 프로젝트
 
-- ⚡ **CPU 사용량 50% 절감** (330% → 160%) - CLIP 모델 최적화 및 OMP 튜닝
-- 📦 **Docker 이미지 60% 경량화** (35GB → 12GB) - 폐쇄망 환경 배포 자동화
-- 🏗️ **Kafka 비동기 아키텍처** 구축 - GPU 비용 효율화 및 대용량 트래픽 처리
-- 🎯 **AI 개발 생산성 7배 향상** (1 week → 1 day) - Sidecar Pattern 적용
-- 🔧 **Message Queue 도입** - 네이버 Tagging API 병목 해결
+**K-water 소양강댐 AI 관제 시스템** (2024)
+- CLIP 모델 최적화로 CPU 사용량 51.5% 절감 (330% → 160%)
+- 36대 CCTV 실시간 모니터링 시스템 구축
 
----
+**네이버 MyBox Kafka 비동기 아키텍처** (2025)
+- Kafka 기반 대용량 이미지 처리 파이프라인 설계
+- GPU 비용 효율화 및 Capacity Planning
 
-## 🤝 Activities
-- **GDG송도 스테프** (2022.08.14)
-- **DDD 8기 운영진** (2022.09.01 ~ 2024.09.28)
-- GDG 인천, 인천 개발자 모임 활동
+**DNA+ 드론 5G 실시간 전송 시스템** (2023)
+- C++ 레거시 코드 통합 및 KLV 데이터 실시간 스트리밍
+- 드론 영상 5G 전송 프로토콜 구현
 
----
-
-## 🏅 Certifications
-- **AWS Certified Solutions Architect – Associate** (2023.10.06)
-- **AWS Certified Cloud Practitioner** (2022.10.14)
-- **리눅스마스터 1급** (2022.12.09) `LMF-2202-002034`
+**경찰청 Police Lab 2.0 백엔드** (2024)
+- Docker 이미지 60% 경량화 (35GB → 12GB)
+- Ansible 기반 폐쇄망 배포 자동화
 
 ---
 
-## 📜 Education & Basic Info
-- **인하대학교**: 소프트웨어융합공학과 (2025.03 ~ 재학)
-- **인천전자마이스터 고등학교**: 정보통신기기과 (2016.03 ~ 2019.01)
-- **병역**: 산업기능요원 만기 전역 (2021.02 ~ 2023.12)
-- **E-mail**: <cfi02222@gmail.com>
-- **Github**: <https://github.com/ufxpri>
+## 🎓 학력 및 병역
+
+**인하대학교** 소프트웨어융합공학과 재학 (2025.03 ~)
+**인천전자마이스터고** 정보통신기기과 졸업 (2019.01)
+**병역** 산업기능요원 만기 전역 (2021.02 ~ 2023.12)
 
 ---
 
-## 📈 Github Stats
+## 🏅 자격증
+
+**AWS Certified Solutions Architect – Associate** (2023.10)
+**AWS Certified Cloud Practitioner** (2022.10)
+**리눅스마스터 1급** (2022.12)
+
+---
+
+## 📫 연락처
+
+📄 [이력서](./RESUME.md) • 💌 [커버레터](./COVER_LETTER.md)
+📧 cfi02222@gmail.com • 🐙 [github.com/ufxpri](https://github.com/ufxpri)
+
+---
+
+## 📊 GitHub Stats
 ![UfXpri's GitHub stats](https://github-readme-stats.vercel.app/api?username=UfXpri&show_icons=true&theme=radical)
