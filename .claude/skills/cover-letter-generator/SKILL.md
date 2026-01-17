@@ -58,7 +58,7 @@ From `what_i_did_*.md` and `performance_*.md`:
 - **Current state**: Who you are today
 
 **Example**:
-> I still remember the moment I deployed my first real-time streaming system to production. Watching 10,000+ CCTV streams flow through the architecture I'd designed, processing at 99.9% uptime—that's when I truly understood the power of distributed systems. Over the past 6 years, I've channeled that excitement into building scalable AI/ML infrastructure that serves millions of users, always driven by the question: "How can we make this better?"
+> I still remember the moment I deployed my first [system type] to production. Watching [X]+ [units] flow through the architecture I'd designed, processing at [X]% uptime—that's when I truly understood the power of [technical domain]. Over the past [X] years, I've channeled that excitement into building [domain] infrastructure that serves [X] users, always driven by the question: "How can we make this better?"
 
 #### Body (3-5 paragraphs)
 Tell your story chronologically or thematically:
@@ -80,7 +80,7 @@ Each paragraph should:
 - Show personal growth or learning
 
 **Example paragraph**:
-> My approach to backend engineering evolved significantly through 2023-2024. What started as a routine database migration became a masterclass in distributed systems design. Leading the PostgreSQL-to-MongoDB transition, I learned that performance optimization isn't just about choosing the right tool—it's about understanding data access patterns, query characteristics, and system bottlenecks. The 40% latency reduction we achieved validated months of careful analysis and iterative refinement. More importantly, this project taught me to balance technical excellence with pragmatic delivery, a lesson I've applied to every project since.
+> My approach to [engineering domain] evolved significantly through [time period]. What started as a routine [project type] became a masterclass in [technical discipline]. Leading the [technology A]-to-[technology B] transition, I learned that [technical insight] isn't just about choosing the right tool—it's about understanding [domain-specific factors]. The [X]% [metric] reduction we achieved validated months of careful analysis and iterative refinement. More importantly, this project taught me to balance technical excellence with pragmatic delivery, a lesson I've applied to every project since.
 
 #### Closing (1-2 paragraphs)
 - **Current focus**: What you're passionate about now
@@ -89,9 +89,9 @@ Each paragraph should:
 - **Call to action**: How to learn more / get in touch
 
 **Example**:
-> Today, I'm focused on pushing the boundaries of AI/ML infrastructure at OGQ, where I'm working on systems that make intelligent capabilities accessible and reliable at scale. I'm particularly excited about the intersection of LLMs and production systems—building the infrastructure that makes AI useful, not just impressive.
+> Today, I'm focused on pushing the boundaries of [technical domain] at [Company], where I'm working on systems that make [value proposition] accessible and reliable at scale. I'm particularly excited about the intersection of [technology A] and [technology B]—building the infrastructure that makes [technology] useful, not just impressive.
 >
-> If you're interested in learning more about my work or discussing opportunities, check out my detailed [RESUME](./RESUME.md) or explore my [career data repository](./). I'm always open to conversations about distributed systems, AI infrastructure, or the art of building reliable software at scale.
+> If you're interested in learning more about my work or discussing opportunities, check out my detailed [RESUME](./RESUME.md) or explore my [career data repository](./). I'm always open to conversations about [technical interest 1], [technical interest 2], or the art of building reliable software at scale.
 
 ### Step 5: Apply Storytelling Principles
 
@@ -103,11 +103,11 @@ Each paragraph should:
 
 **Show, Don't Tell**:
 - ❌ "I'm a hard worker and team player"
-- ✅ "I mentored 3 junior engineers through their first distributed systems project, meeting weekly to pair-program and review architecture decisions"
+- ✅ "I mentored [X] [level] engineers through their first [technical domain] project, meeting weekly to pair-program and review architecture decisions"
 
 **Use Specific Details**:
 - ❌ "I improved system performance"
-- ✅ "I reduced query latency by 40% through careful data modeling and index optimization"
+- ✅ "I reduced [metric] by [X]% through [method] and [technique]"
 
 **Connect the Dots**:
 - Link learnings to outcomes

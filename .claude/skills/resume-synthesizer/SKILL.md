@@ -45,7 +45,7 @@ Synthesize from **all years**:
 - Signature achievements (from performance files)
 
 **Example**:
-> Senior Software Engineer with 6+ years building scalable AI/ML systems. Led backend migrations improving query performance by 40%, deployed real-time streaming systems processing 10K+ events/sec, and architected cloud infrastructure serving 100K+ users. Deep expertise in Python, Go, distributed systems, and MLOps, with proven ability to translate complex technical challenges into business value.
+> [Role] with [X]+ years building [domain] systems. Led [project type] improving [metric] by [X]%, deployed [system type] processing [X]+ [unit], and architected [infrastructure] serving [X]+ users. Deep expertise in [tech stack], with proven ability to translate complex technical challenges into business value.
 
 #### Technical Skills
 Aggregate from all `what_i_did_*.md` files:
@@ -70,17 +70,17 @@ Synthesize from all three file types:
 ```markdown
 ## Work Experience
 
-### Senior Software Engineer | Current Company | 2020 - Present
+### [Role] | [Company] | [Start Year] - [End Year/Present]
 
-**2024**
-- Led backend migration from PostgreSQL to MongoDB, reducing query latency by 40% and improving system scalability
-- Architected real-time streaming mosaic processing system handling 10K+ concurrent CCTV streams
-- Mentored 3 junior engineers on distributed systems design patterns learned through production challenges
+**[Year 2]**
+- Led [project name] from [old tech] to [new tech], reducing [metric] by [X]% and improving [outcome]
+- Architected [system type] handling [X]+ [units] with [performance metric]
+- Mentored [X] [junior/mid-level] engineers on [technical area] learned through [experience]
 
-**2023**
-- Designed and deployed Naver Cloud tagging system processing 100K+ resources with 99.9% uptime
-- Reduced infrastructure costs by 25% through automated resource optimization and monitoring
-- Developed expertise in cloud-native architectures and multi-cloud deployment strategies
+**[Year 1]**
+- Designed and deployed [system name] processing [X]+ [units] with [X]% uptime
+- Reduced [cost/time/resource] by [X]% through [method] and [technique]
+- Developed expertise in [technical domain] and [related skill]
 ```
 
 #### Key Projects (Optional section)
@@ -142,13 +142,13 @@ Write to `RESUME.md` in the base directory.
 ## Example Synthesis
 
 ### Input Files:
-`what_i_did_2024.md`: "Led backend migration to MongoDB"
-`performance_2024.md`: "Query latency reduced by 40%, handled 10K QPS"
-`my_thoughts_2024.md`: "Learned NoSQL data modeling, understood trade-offs"
+`what_i_did_YYYY.md`: "Led [system] migration to [new tech]"
+`performance_YYYY.md`: "[Metric] reduced by [X]%, handled [X] [unit]"
+`my_thoughts_YYYY.md`: "Learned [concept], understood [principles]"
 
 ### Synthesized Output:
 ```markdown
-- Architected and led critical backend migration from PostgreSQL to MongoDB, applying NoSQL data modeling principles to achieve 40% latency reduction while scaling to 10K+ queries per second
+- Architected and led critical [system] migration from [old tech] to [new tech], applying [technical principles] to achieve [X]% [metric] reduction while scaling to [X]+ [unit]
 ```
 
 Notice how it:

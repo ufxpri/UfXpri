@@ -45,46 +45,65 @@ From the source files, identify:
 - **구체적인 프로젝트 중심** (Focus on concrete project names, not vague metrics)
 - **채용 필수 정보 포함** (Include education and military service - mandatory for Korean hiring)
 
-#### Required Structure:
+#### Required Structure (Following shields.io badge format):
 
 **1. Header**
-- 이름 (Name in Korean)
-- 직함 (Title in Korean)
-- 한 줄 소개 (One-line intro in Korean)
+```markdown
+# [이름] [Github Handle]
 
-**2. 기술 스택 (Tech Stack)**
-- Core technologies only (8-10 badges max)
-- Ordered by importance
+### 👥 [Role/Title]
+```
+- Format: `# [Name] [Handle]` (no parentheses)
+- Title: `### 👥 [Role]` (use ### for subheader)
 
-**3. 경력 (Career)**
-- Current company + role + dates
-- Previous company + role + dates
-- Keep it brief (2-3 lines total)
+**2. 기술 스택 (Tech Stack) - Badge Format**
+```markdown
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi)
+```
+- **CRITICAL**: Use `style=for-the-badge` (NOT flat-square)
+- Copy badges directly from `basic_info.md` 기술 스택 section
+- Core technologies only (6-10 badges max)
+- All badges on separate lines (markdown will display inline)
 
-**4. 주요 프로젝트 (Key Projects)** ⭐ MOST IMPORTANT
-- **Use specific project NAMES**, not vague achievements
-- Good: "K-water 소양강댐 AI 관제 시스템 - CLIP 모델 최적화, 36대 CCTV 실시간 모니터링"
-- Bad: "CPU usage reduced by 50%" (doesn't say WHAT you built)
-- Include 3-4 top projects with:
-  - Project name (client + system name)
-  - What you built
-  - Key technologies or achievements
+**3. Links Section**
+```markdown
+more info [COVER LETTER](./COVER_LETTER.md) | [RESUME](./RESUME.md)
+```
+- Simple text with pipe separator
+- Links to cover letter and resume
 
-**5. 학력 및 병역 (Education & Military)** ⭐ REQUIRED FOR KOREA
-- 대학교 (University) - major, status (재학/졸업)
-- 고등학교 (High school) - major, graduation
-- 병역 (Military) - status (산업기능요원 만기 전역, etc.)
+**4. 경력 (Career) - Compact Format with sup/sub**
+```markdown
+**[회사1] @[handle1]** <sup><sub>[직무1] ([시작일] ~ [종료일])</sub></sup>
+**[회사2] @[handle2]** <sup><sub>[직무2] ([시작일] ~ 현재)</sub></sup>
+```
+- Format: `**Company @handle** <sup><sub>role (dates)</sub></sup>`
+- Add two spaces at end of first line for line break
+- No bullet points or sections
 
-**6. 자격증 (Certifications)**
-- AWS certs, Linux Master, etc.
-- Include dates
+**5. 커뮤니티 활동 (Community) - Same Compact Format**
+```markdown
+**[커뮤니티1]** <sup><sub>[역할1] ([시작일] ~)</sub></sup>
+**[커뮤니티2]** <sup><sub>[역할2] ([시작일] ~ [종료일])</sub></sup>
+```
+- Same format as career section
+- Add two spaces at end of first line for line break
 
-**7. 연락처 (Contact)**
-- Links to resume, cover letter
-- Email, GitHub
+**6. Horizontal Line**
+```markdown
+---
+```
 
-**8. GitHub Stats** (optional)
-- GitHub stats widget
+**7. 자격증 (Certifications) - Inline Format**
+```markdown
+**[자격증1]** <sup><sub>([취득일1])</sub></sup> [badge](url)
+**[자격증2]** <sup><sub>([취득일2])</sub></sup> [badge](url)
+**[자격증3]** <sup><sub>([취득일3])</sub></sup> [인증번호]
+```
+- Format: `**Cert Name** <sup><sub>(date)</sub></sup> [badge](url)` or cert number
+- Add two spaces at end of each line for line breaks
+- Copy from `basic_info.md` 자격증 section
 
 ### Step 4: Generate Content with LLM Intelligence
 
@@ -112,84 +131,91 @@ Write to `README.md` in the base directory.
 ## Example Output Structure (Korean Market Standard)
 
 ```markdown
-# 조승준 (UfXpri)
+# [이름] [Github Handle]
 
-**백엔드 개발자** | AI/ML 인프라 및 실시간 스트리밍 시스템 구축
+### 👥 [Role/Title]
 
----
+![Tech1](https://img.shields.io/badge/tech1-color?style=for-the-badge&logo=tech1&logoColor=white)
+![Tech2](https://img.shields.io/badge/Tech2-color?style=for-the-badge&logo=tech2)
+![Tech3](https://img.shields.io/badge/Tech3-color?style=for-the-badge&logo=tech3&logoColor=white)
+![Tech4](https://img.shields.io/badge/Tech4-color?style=for-the-badge&logo=tech4&logoColor=white)
+![Tech5](https://img.shields.io/badge/tech5-color?style=for-the-badge&logo=tech5&logoColor=white)
+![Tech6](https://img.shields.io/badge/Tech6-color?style=for-the-badge&logo=tech6&logoColor=white)
 
-## 🛠️ 기술 스택
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Django](https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Kafka](https://img.shields.io/badge/Kafka-231F20?style=flat-square&logo=apache-kafka&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazon-aws&logoColor=white)
+more info [COVER LETTER](./COVER_LETTER.md) | [RESUME](./RESUME.md)
 
----
+**[회사1] @[handle1]** <sup><sub>[직무1] ([시작일] ~ [종료일])</sub></sup>
+**[회사2] @[handle2]** <sup><sub>[직무2] ([시작일] ~ 현재)</sub></sup>
 
-## 💼 경력
-
-**오지큐 (OGQ)** - 백엔드 개발자 (2023.01 ~ 현재)
-**지와이네트웍스 (GYnetworks)** - 백엔드 연구원 (2018.09 ~ 2022.12)
+**[커뮤니티1]** <sup><sub>[역할1] ([시작일] ~)</sub></sup>
+**[커뮤니티2]** <sup><sub>[역할2] ([시작일] ~ [종료일])</sub></sup>
 
 ---
 
-## 🚀 주요 프로젝트
-
-**K-water 소양강댐 AI 관제 시스템** (2024)
-- CLIP 모델 최적화로 CPU 사용량 51.5% 절감 (330% → 160%)
-- 36대 CCTV 실시간 모니터링 시스템 구축
-
-**네이버 MyBox Kafka 비동기 아키텍처** (2025)
-- Kafka 기반 대용량 이미지 처리 파이프라인 설계
-- GPU 비용 효율화 및 Capacity Planning
-
-**DNA+ 드론 5G 실시간 전송 시스템** (2023)
-- C++ 레거시 코드 통합 및 KLV 데이터 실시간 스트리밍
-- 드론 영상 5G 전송 프로토콜 구현
-
-**경찰청 Police Lab 2.0 백엔드** (2024)
-- Docker 이미지 60% 경량화 (35GB → 12GB)
-- Ansible 기반 폐쇄망 배포 자동화
-
----
-
-## 🎓 학력 및 병역
-
-**인하대학교** 소프트웨어융합공학과 재학 (2025.03 ~)
-**인천전자마이스터고** 정보통신기기과 졸업 (2019.01)
-**병역** 산업기능요원 만기 전역 (2021.02 ~ 2023.12)
-
----
-
-## 🏅 자격증
-
-**AWS Certified Solutions Architect – Associate** (2023.10)
-**AWS Certified Cloud Practitioner** (2022.10)
-**리눅스마스터 1급** (2022.12)
-
----
-
-## 📫 연락처
-
-📄 [이력서](./RESUME.md) • 💌 [커버레터](./COVER_LETTER.md)
-📧 cfi02222@gmail.com • 🐙 [github.com/ufxpri](https://github.com/ufxpri)
-
----
-
-## 📊 GitHub Stats
-![UfXpri's GitHub stats](https://github-readme-stats.vercel.app/api?username=UfXpri&show_icons=true&theme=radical)
+**[자격증1]** <sup><sub>([취득일])</sub></sup> [badge](url)
+**[자격증2]** <sup><sub>([취득일])</sub></sup> [badge](url)
+**[자격증3]** <sup><sub>([취득일])</sub></sup> [인증번호]
 ```
+
+## Formatting Rules (shields.io badge style)
+
+**CRITICAL**: Follow this exact format from the guide:
+
+### Header Format:
+```markdown
+# [이름] [Handle]
+
+### 👥 [Role/Title]
+```
+- Use `#` for name (no parentheses)
+- Use `###` for title/role
+
+### Badge Format:
+```markdown
+![Tech1](https://img.shields.io/badge/tech1-color?style=for-the-badge&logo=tech1&logoColor=color)
+![Tech2](https://img.shields.io/badge/Tech2-color?style=for-the-badge&logo=tech2)
+```
+- **MUST use `style=for-the-badge`** (NOT flat-square)
+- Copy badges directly from `basic_info.md` 기술 스택 section
+- Each badge on separate line (will display inline)
+
+### Compact Format with sup/sub:
+```markdown
+**[회사1] @[handle1]** <sup><sub>[직무1] ([시작일] ~ [종료일])</sub></sup>
+**[회사2] @[handle2]** <sup><sub>[직무2] ([시작일] ~ 현재)</sub></sup>
+
+**[커뮤니티1]** <sup><sub>[역할1] ([시작일] ~)</sub></sup>
+**[커뮤니티2]** <sup><sub>[역할2] ([시작일] ~ [종료일])</sub></sup>
+```
+- Format: `**Company @handle** <sup><sub>role (dates)</sub></sup>`
+- **Two spaces at end of line** for line break
+- **Blank line** between career and community sections
+- No section headers, no bullet points
+
+### Links Format:
+```markdown
+more info [COVER LETTER](./COVER_LETTER.md) | [RESUME](./RESUME.md)
+```
+- Simple text with pipe separator
+
+### Certifications Format:
+```markdown
+---
+
+**[자격증1]** <sup><sub>([취득일])</sub></sup> [badge](url)
+**[자격증2]** <sup><sub>([취득일])</sub></sup> [badge](url)
+**[자격증3]** <sup><sub>([취득일])</sub></sup> [인증번호]
+```
+- Horizontal line `---` before certifications
+- Format: `**Cert** <sup><sub>(date)</sub></sup> [badge](url)`
+- Two spaces at end of each line
 
 ## Content Guidelines (Korean Job Market)
 
 ### DO:
 - ✅ **한글로 작성** - Write everything in Korean (except tech terms)
 - ✅ **구체적인 프로젝트명 사용** - Use specific project names (client + system)
-  - Good: "K-water 소양강댐 AI 관제 시스템"
+  - Good: "[고객사] [시스템명] 프로젝트"
   - Bad: "AI monitoring system" or "CPU optimization"
 - ✅ **학력/병역 필수 포함** - Always include education and military service
 - ✅ **간결하게** - Keep it scannable (3-4 top projects, not 10)
@@ -200,7 +226,7 @@ Write to `README.md` in the base directory.
 - ❌ **영어로 작성하지 말것** - Don't write in English (this is for Korean hiring managers)
 - ❌ **추상적인 성과** - Don't use vague achievements without project context
   - Bad: "Reduced CPU by 50%" (뭘 했는지 모름)
-  - Good: "K-water 시스템에서 CLIP 모델 최적화로 CPU 51.5% 절감"
+  - Good: "[고객사] 시스템에서 [기술] 최적화로 [메트릭] [X]% 절감"
 - ❌ **학력/병역 빠뜨리지 말것** - Never omit education/military (Korean recruiters always check)
 - ❌ **너무 길게** - Don't make it too long (aim for 1 screen, 2 max)
 - ❌ **모든 프로젝트 나열** - Don't list every project (only top 3-4)
