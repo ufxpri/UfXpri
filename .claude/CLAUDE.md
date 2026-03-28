@@ -56,7 +56,7 @@ This is a **career management and resume generation system** that uses Claude Co
 ## File Structure
 
 ```
-G:\내 드라이브\03_회사\00_커리어/
+UfXpri/
 ├── .claude/
 │   ├── CLAUDE.md                                    [this file]
 │   └── skills/
@@ -73,24 +73,29 @@ G:\내 드라이브\03_회사\00_커리어/
 │
 ├── basic_info.md                                    [static info: name, contact, edu, military, certs]
 │
+├── certificates/
+│   └── ADsP_certificate.png                         [자격증 이미지]
+│
 ├── 2024/
 │   ├── 1분기.md, 2분기.md, 3분기.md, 4분기.md        [raw quarterly data]
 │   ├── Project_Timeline.md                          [raw project data]
 │   ├── what_i_did_2024.md                           [extracted: accomplishments]
 │   ├── my_thoughts_2024.md                          [extracted: reflections]
-│   ├── performance_2024.md                          [extracted: metrics]
-│   └── Summary_2024_AI.md                           [legacy AI summary]
+│   └── performance_2024.md                          [extracted: metrics]
 │
 ├── 2023/
 │   └── [same structure]
 │
 ├── RESUME.md                                        [synthesized resume]
-├── RESUME_EN.md                                     [translated to English]
-├── RESUME_technical.md                              [adapted for IC roles]
+├── COVER_LETTER.md                                  [cover letter]
+├── README.md                                        [GitHub profile README]
 │
 └── archive/
     ├── generate_resume.py                           [legacy Python script]
-    └── Profile.md.old                               [old profile file]
+    ├── Profile.md.old                               [old profile file]
+    ├── section_mapping.yaml                         [legacy config]
+    └── summaries/
+        └── Summary_*_AI.md                          [legacy AI summaries]
 ```
 
 ## Usage Workflow

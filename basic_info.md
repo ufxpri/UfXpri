@@ -47,6 +47,8 @@
 **AWS Certified Solutions Architect – Associate** <sup><sub>(2023.10.06)</sub></sup> [badge](https://www.credly.com/badges/d45a1d57-65e9-44c6-96c3-33d1017f8dcf/public_url)  
 **리눅스마스터 1급** <sup><sub>(2022.12.09)</sub></sup> LMF-2202-002034
 **데이터분석 준전문가(ADsP)** <sup><sub>(2025.01.27)</sub></sup>
+**정보기기운용기능사** <sup><sub>(2018.03.21)</sub></sup> 18807690028P
+**전자기능사** <sup><sub>(2018.07.06)</sub></sup> 18400051169U
 
 ---
 
