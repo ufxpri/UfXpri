@@ -24,6 +24,9 @@ more info [COVER LETTER](./COVER_LETTER.md) | [RESUME](./RESUME.md)
 
 ---
 
-**AWS Certified Cloud Practitioner** <sup><sub>(2022.10.14)</sub></sup> [badge](https://www.credly.com/badges/43d4968c-9fd0-46d6-ab7a-b2130f7d359a/public_url)  
-**AWS Certified Solutions Architect – Associate** <sup><sub>(2023.10.06)</sub></sup> [badge](https://www.credly.com/badges/d45a1d57-65e9-44c6-96c3-33d1017f8dcf/public_url)  
+**AWS Certified Cloud Practitioner** <sup><sub>(2022.10.14)</sub></sup> [badge](https://www.credly.com/badges/43d4968c-9fd0-46d6-ab7a-b2130f7d359a/public_url)
+**AWS Certified Solutions Architect – Associate** <sup><sub>(2023.10.06)</sub></sup> [badge](https://www.credly.com/badges/d45a1d57-65e9-44c6-96c3-33d1017f8dcf/public_url)
 **리눅스마스터 1급** <sup><sub>(2022.12.09)</sub></sup> LMF-2202-002034
+**데이터분석 준전문가(ADsP)** <sup><sub>(2025.01.27)</sub></sup>
+**정보기기운용기능사** <sup><sub>(2018.03.21)</sub></sup>
+**전자기능사** <sup><sub>(2018.07.06)</sub></sup>
